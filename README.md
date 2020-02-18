@@ -6,6 +6,19 @@
 * Taro
 * React
 * Redux/`@tarojs/redux`
+  
+### [构建步骤](https://nervjs.github.io/taro/docs/GETTING-STARTED.html)
+```js
+# step 1
+yarn dev:weapp
+
+# step 2
+yarn build:weapp
+
+# step 3
+打开微信小程序载入dist文件夹预览
+```
+
 
 ### 效果展示
 

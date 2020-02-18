@@ -1,8 +1,8 @@
 import { ADD, DELETE } from './types'
 
-export const add = (data) => {
+export const add = (text) => {
     return {
-        data,
+        text,
         type: ADD
     }
 }

@@ -4,7 +4,7 @@ import { ADD, DELETE } from '../actions/types'
 // 定义初始状态
 const INITIAL_STATE = {
   todos: [
-    {id: 0, text: '第一条todo'}
+    {id: 0, text: '吃饭'}
   ]
 }
 
@@ -19,7 +19,7 @@ function todos (state = INITIAL_STATE, action) {
         ...state,
         todos: state.todos.concat({
           id: todoNum,
-          text: action.data
+          text: action.text
         })
       }
     case DELETE:
