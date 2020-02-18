@@ -1,0 +1,30 @@
+.index-tip {
+    background-color: #efefef;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.gray {
+    color: #888888;
+}
+
+.index-item-icon {
+    float: right;
+}
+
+.index-input, .input-button {
+    display: inline-block;
+}
+
+.index-input {
+    width: 60%;
+    border: 1px solid #e1e1e1;
+    padding: 0.7rem 0.5rem;
+    margin-right: 1rem;
+}
+
+.input-button {
+    width: 20%;
+    background-color: #007fff;
+    color: white;
+}
